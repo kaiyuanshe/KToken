@@ -8,7 +8,7 @@
 
 制定贡献积分获得规则。
 
-KCoin 贡献积分在内部分发使用。
+KToken 贡献积分在内部分发使用。
 媒体组
 开放黑客松项目组
 
@@ -27,7 +27,7 @@ KCoin 贡献积分在内部分发使用。
 映射测试网地址积分。
 
 
-## KCoin 测试版用户使用手册
+## KToken 测试版用户使用手册
 建议使用浏览器钱包-Metamask
 https://metamask.io/
 支持浏览器：Chrome、Firefox、Brave、Edge
