@@ -46,3 +46,9 @@ https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpg
 
 Edge
 https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm?hl=en-US
+
+## 文件说明
+- KSwap：不同Token之间的互换合约（待完善）
+- KToken：KToken的合约
+- Scripts：部署，调用合约的代码
+- Private-Blockchain：以太坊私有区块链（PoA）的运行环境

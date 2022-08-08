@@ -11,3 +11,6 @@
 - Balance存储其可以交易的Token
 - Point存储分发给该用户的balance总数
 - 在允许交易的情况下，用户需要先将自己一定量的balance通过Approve函数标记成可交易状态（或者委托给他人），再通过transferFrom函数进行交易
+
+## 案例1
+复旦大学可视分析与智能决策实验室[FDU-VIS](http://fduvis.net/)使用私有以太坊PoA区块链，与语雀链接起来，用来记录实验室内部人员的活跃程度。
