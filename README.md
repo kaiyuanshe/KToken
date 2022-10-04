@@ -1,51 +1,26 @@
 # KToken
 基于区块链的社区贡献激励方案
 
-## KToken计划
-在以太坊 http://ethereum.org/ 测试网上建立 KToken 贡献积分（已完成）
-
-建立第一版测试合约。（已完成）
-
-完成使用指导手册。（已完成）
-
-制定贡献积分获得规则。（进行中）
-
-KToken 贡献积分在内部分发使用。
-
-翻译小组（进行中）
-OpenDigger （进行中）
-
-收集反馈，更新规则。（有可能需要迭代几个测试版本）
-
-推广 2-3 个合作社区使用 KToken 积分或可实现兑换。（进行中）
-
-修正规则以及兑换方式。（进行中）
-
-修正规则运行推广 5 个具有代表性的社区测试运作。
-
-完成最终版本并进行代码审计。
-
-订正代码并发布上主网。
-
-映射测试网地址积分。
+## KToken Roadmap
+ - [x] 在[以太坊](http://ethereum.org/)测试网上建立 KToken 贡献积分
+ - [x] 建立第一版测试合约
+ - [x] 完成使用指导手册
+ - [ ] 制定贡献积分获得规则 (In progress)
+ - [ ] KToken 贡献积分在内部分发使用
+ - [ ] 翻译小组 (In progress)
+ - [ ] OpenDigger (In progress)
+ - [ ] 收集反馈，更新规则（有可能需要迭代几个测试版本）
+ - [ ] 推广 2-3 个合作社区使用 KToken 积分或可实现兑换 (In progress)
+ - [ ] 修正规则以及兑换方式 (In progress)
+ - [ ] 修正规则运行推广 5 个具有代表性的社区测试运作
+ - [ ] 完成最终版本并进行代码审计
+ - [ ] 订正代码并发布上主网
+ - [ ] 映射测试网地址积分
 
 
 ## KToken 测试版用户使用手册
-建议使用浏览器钱包-Metamask
-https://metamask.io/
-支持浏览器：Chrome、Firefox、Brave、Edge
-
-Chrome
-https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en
-
-Firefox
-https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/
-
-Brave
-https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en
-
-Edge
-https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm?hl=en-US
+建议使用浏览器钱包[Metamask](https://metamask.io/)
+支持浏览器：[Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)、[Firefox](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/)、[Brave](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)、[Edge](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm?hl=en-US)
 
 ## 文件说明
 - KSwap：不同Token之间的互换合约（待完善）
