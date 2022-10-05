@@ -21,9 +21,3 @@
 ## KToken 测试版用户使用手册
 建议使用浏览器钱包[Metamask](https://metamask.io/)
 支持浏览器：[Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)、[Firefox](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/)、[Brave](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)、[Edge](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm?hl=en-US)
-
-## 文件说明
-- KSwap：不同Token之间的互换合约（待完善）
-- KToken：KToken的合约
-- Scripts：部署，调用合约的代码
-- Private-Blockchain：以太坊私有区块链（PoA）的运行环境

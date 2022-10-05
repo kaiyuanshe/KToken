@@ -18,8 +18,8 @@ interface IERC20 {
 
 contract KToken is IERC20 {
 
-    string public constant name = "KToken";
-    string public constant symbol = "KTN";
+    string public constant name = "FDU VIS Coin";
+    string public constant symbol = "FVC";
     uint8 public constant decimals = 0;
     address public Owner;
 
