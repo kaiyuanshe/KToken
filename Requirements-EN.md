@@ -1,5 +1,5 @@
 # Requirements of COScon'22 NFT
---- 
+
 ## Overview of Ktoken
 
 Ktoken is a blockchain-based incentive program for open source communities. Contributors from various communities can use Ktoken to record their contributions, as well as NFTs to commemorate their participation in events or memorable moments. What we want to do here is to offer NFTs to attendees of the China Open Source Conference (Coscon'22).
@@ -27,7 +27,6 @@ Ktoken is a blockchain-based incentive program for open source communities. Cont
 5. During the conference, users need to enter their email addresses at an NPC in the metaverse venue. Following the conference, they will receive an email with a Magiclink to mint the rare NFT. Only users who log in to our metaverse venue and complete the form can mint the NFT.
 
 ## Questions
-
 **Q1:** Which network do we use?  
 **A1:** Ethereum Mainnet.
 
@@ -50,14 +49,14 @@ Ktoken is a blockchain-based incentive program for open source communities. Cont
 **A7:** Yes, we plan to open the source code under this repo. (Do you have any requirements for the license?)
 
 ## Comfirm list
-- Do you want user to do via a wallet?
-- Yes, let them use wallet!
+**Q1:** Do you want user to do via a wallet?  
+**A1:** Yes, let them use wallet!
 
-- Users can choice to import their account (with Metamask), or create a new address (with UniPass). I wonder if UniPass can integrate into browser as Metamask do?
-- Need to confirm.
+**Q2:** Users can choice to import their account (with Metamask), or create a new address (with UniPass). I wonder if UniPass can integrate into browser as Metamask do?
+**A2:** Need to confirm.
 
-- Can we disable the transfer function of NFTs?
-- I used to just disable the transfer function (Return false by any input), but the EIP-5484 looks pretty good. Need to confirm with dev teams.
+**Q3:** Can we disable the transfer function of NFTs?
+**A3:** I used to just disable the transfer function (Return false by any input), but the EIP-5484 looks pretty good. Need to confirm with dev teams.
 
-- How much ETH do we need for gas station?
-- Need to confirm. (mint one by one or batch mint)
+**Q4:** How much ETH do we need for gas station?
+**A4:** Need to confirm. (mint one by one or batch mint)
