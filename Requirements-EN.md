@@ -1,9 +1,11 @@
 # Requirements of COScon'22 NFT
 --- 
 ## Overview of Ktoken
+
 Ktoken is a blockchain-based incentive program for open source communities. Contributors from various communities can use Ktoken to record their contributions, as well as NFTs to commemorate their participation in events or memorable moments. What we want to do here is to offer NFTs to attendees of the China Open Source Conference (Coscon'22).
 
 ## Important Requirements
+
 1. Over 90% of participants are expected to have no experience with cryptocurrency wallets. They need to obtain cryptowallet addresses in an understandable Web2 way (e.g., email), but approximately 10% of participants may already have cryptowallet addresses, and we need to allow them to import their existing addresses.
 
 2. To encourage participants to attend our metaverse venue, participants could mint their NFT in our [Yaotai](https://yaotai.163.com/) (a metaverse platform provided by NetEase).
@@ -17,6 +19,7 @@ Ktoken is a blockchain-based incentive program for open source communities. Cont
   * Producer
 
 ## Process of minting NFT
+
 1. Before the start of the conference, participants will receive an email with a Magiclink (a SmartToken-based product with their ticket details), which will take them to a Landing page.
 2. The Landing page contains different entrances to mint NFTs. You can only mint an NFT if your Ticket matches the role.
 3. Click on the NFT to call the wallet for mint. Users can import an address or create one here. We promote the UniPass for users who select to create one. Then, return to the main page to continue minting after obtaining an address. (This is what users can do before the conference)
@@ -24,6 +27,7 @@ Ktoken is a blockchain-based incentive program for open source communities. Cont
 5. During the conference, users need to enter their email addresses at an NPC in the metaverse venue. Following the conference, they will receive an email with a Magiclink to mint the rare NFT. Only users who log in to our metaverse venue and complete the form can mint the NFT.
 
 ## Questions
+
 **Q1:** Which network do we use?
 **A1:** Ethereum Mainnet.
 
