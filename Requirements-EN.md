@@ -6,17 +6,17 @@ Ktoken is a blockchain-based incentive program for open source communities. Cont
 
 ## Important Requirements
 
-1. Over 90% of participants are expected to have no experience with cryptocurrency wallets. They need to obtain cryptowallet addresses in an understandable Web2 way (e.g., email), but approximately 10% of participants may already have cryptowallet addresses, and we need to allow them to import their existing addresses.
+- Over 90% of participants are expected to have no experience with cryptocurrency wallets. They need to obtain cryptowallet addresses in an understandable Web2 way (e.g., email), but approximately 10% of participants may already have cryptowallet addresses, and we need to allow them to import their existing addresses.
 
-2. To encourage participants to attend our metaverse venue, participants could mint their NFT in our [Yaotai](https://yaotai.163.com/) (a metaverse platform provided by NetEase).
+- To encourage participants to attend our metaverse venue, participants could mint their NFT in our [Yaotai](https://yaotai.163.com/) (a metaverse platform provided by NetEase).
 
-3. We need to give sponsors/cooperative communities more of a sense of involvement, but now it is too late to make a development level integration based on their products.
+- We need to give sponsors/cooperative communities more of a sense of involvement, but now it is too late to make a development level integration based on their products.
 
-4. Participants will mint different NFTs depending on their role in COScon'22 (list as follows). A person with multiple roles can mint multiple NFTs. (There's another NFT for sponsors/cooperative communities)
-  * Attendee
-  * Volunteer
-  * Speaker
-  * Producer
+- Participants will mint different NFTs depending on their role in COScon'22 (list as follows). A person with multiple roles can mint multiple NFTs. (There's another NFT for sponsors/cooperative communities)
+  - Attendee
+  - Volunteer
+  - Speaker
+  - Producer
 
 ## Process of minting NFT
 
@@ -50,14 +50,14 @@ Ktoken is a blockchain-based incentive program for open source communities. Cont
 **A7:** Yes, we plan to open the source code under this repo. (Do you have any requirements for the license?)
 
 ## Comfirm list
-1. Do you want user to do via a wallet?
-  - Yes, let them use wallet!
+- Do you want user to do via a wallet?
+- Yes, let them use wallet!
 
-2. Users can choice to import their account (with Metamask), or create a new address (with UniPass). I wonder if UniPass can integrate into browser as Metamask do?
-  - Need to confirm.
+- Users can choice to import their account (with Metamask), or create a new address (with UniPass). I wonder if UniPass can integrate into browser as Metamask do?
+- Need to confirm.
 
-3. Can we disable the transfer function of NFTs?
-  - I used to just disable the transfer function (Return false by any input), but the EIP-5484 looks pretty good. Need to confirm with dev teams.
+- Can we disable the transfer function of NFTs?
+- I used to just disable the transfer function (Return false by any input), but the EIP-5484 looks pretty good. Need to confirm with dev teams.
 
-4. How much ETH do we need for gas station?
-  - Need to confirm. (mint one by one or batch mint)
+- How much ETH do we need for gas station?
+- Need to confirm. (mint one by one or batch mint)
