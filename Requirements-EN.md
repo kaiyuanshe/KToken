@@ -48,3 +48,16 @@ Ktoken is a blockchain-based incentive program for open source communities. Cont
 
 **Q7:** Should the project be open source?
 **A7:** Yes, we plan to open the source code under this repo. (Do you have any requirements for the license?)
+
+## Comfirm list
+1. Do you want user to do via a wallet?
+  - Yes, let them use wallet!
+
+2. Users can choice to import their account (with Metamask), or create a new address (with UniPass). I wonder if UniPass can integrate into browser as Metamask do?
+  - Need to confirm.
+
+3. Can we disable the transfer function of NFTs?
+  - I used to just disable the transfer function (Return false by any input), but the EIP-5484 looks pretty good. Need to confirm with dev teams.
+
+4. How much ETH do we need for gas station?
+  - Need to confirm. (mint one by one or batch mint)
