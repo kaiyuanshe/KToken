@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.13;
+pragma solidity ^0.8.18;
 
 interface IERC20 {
 
@@ -16,7 +16,7 @@ interface IERC20 {
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
 
-contract TestToken is IERC20 {
+contract KTokenV2 is IERC20 {
 
     string public constant name = "KToken";
     string public constant symbol = "KTN";
@@ -30,7 +30,7 @@ contract TestToken is IERC20 {
     uint256 TotalSupply;
     using SafeMath for uint256;
 
-   constructor() public {
+   constructor() {
         TotalSupply = 1000000;
         Owner = msg.sender;
         balances[Owner] = TotalSupply;
