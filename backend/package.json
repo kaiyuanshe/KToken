@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.8.1",
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "class-validator": "^0.14.0",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.3.2"
+  }
+}

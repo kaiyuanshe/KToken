@@ -1,16 +1,13 @@
 const hre = require("hardhat");
 
 async function main() {
-  const [deployer] = await ethers.getSigners();
-  console.log("Deploying contracts with the account:", deployer.address);
+  const KTokenV3 = await hre.ethers.deployContract("KTokenV3");
+  await KTokenV3.waitForDeployment();
 
-  const token = await ethers.deployContract("KTokenV1");
-  console.log("Token address:", await token.getAddress());
+  console.log("KTokenV3 was deployed to:", KTokenV3.target);
 }
 
-main()
-  .then(() => process.exit(0))
-  .catch((error) => {
+main().catch((error) => {
     console.error(error);
     process.exit(1);
   });
