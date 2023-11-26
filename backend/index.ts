@@ -16,11 +16,3 @@ server.listen({ port: 8080 }, (err, address) => {
     process.exit(1)
   }
 })
-
-
-contract.transfer("0x57C641e614fB9Ca266C8a8e0Ab4285d2fAd74D63", 1)
-.then(() => process.exit(0))
-.catch((error: any) => {
-    console.error(error);
-    process.exit(1);
-});

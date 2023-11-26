@@ -2,13 +2,12 @@
 基于区块链的社区贡献激励方案
 
 ## KToken Roadmap
- - [x] 在[以太坊](http://ethereum.org/)测试网上建立 KToken 贡献积分
+ - [x] 在以太坊[测试网]上建立 KToken 贡献积分
  - [x] 建立第一版测试合约
  - [x] 完成使用指导手册
  - [ ] 制定贡献积分获得规则 (In progress)
- - [ ] KToken 贡献积分在内部分发使用
- - [ ] 翻译小组 (In progress)
- - [ ] OpenDigger (In progress)
+ - [ ] 翻译组 (In progress)
+ - [ ] 基础设施组 (In progress)
  - [ ] 收集反馈，更新规则（有可能需要迭代几个测试版本）
  - [ ] 推广 2-3 个合作社区使用 KToken 积分或可实现兑换 (In progress)
  - [ ] 修正规则以及兑换方式 (In progress)
