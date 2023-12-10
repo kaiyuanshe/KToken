@@ -3,7 +3,7 @@ const ethers = require('ethers');
 require("dotenv").config();
 
 // contract instance
-const contract = require(path.join(__dirname, '/../../../onchain/artifacts/contracts/ktoken-v3.sol/KTokenV3.json'));
+const contract = require(path.join(__dirname, '../compiled/KTokenV3.json'));
 const contractInterface = contract.abi;
 
 // Sepolia testnet
