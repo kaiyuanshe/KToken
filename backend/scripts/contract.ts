@@ -3,7 +3,7 @@ const ethers = require('ethers');
 require("dotenv").config();
 
 // contract instance
-const contract = require(path.join(__dirname, '../compiled/KTokenV3.json'));
+const contract = require(path.join(__dirname, '../../compiled/KTokenV3.json'));
 const contractInterface = contract.abi;
 
 // Sepolia testnet
@@ -63,3 +63,38 @@ export const getTotalSupply = async () => {
     let totalSupply = await contractInstance.totalSupply()
     console.log(`The token total supply is ${totalSupply}`)
 }
+
+// get all transactions related with an address
+// 
+// Log data structure {
+//     provider: InfuraProvider {
+//       projectId: 'xxx',
+//       projectSecret: null
+//     },
+//     transactionHash: 'xxx',
+//     blockHash: 'xxx',
+//     blockNumber: xxx,
+//     removed: false,
+//     address: 'xxx', // contract address
+//     data: '0x0000000000000000000000000000000000000000000000000000000000000001',
+//     topics: [
+//       '0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef',
+//       '0x0000000000000000000000003061f83708b755fccc71f9689f0512e7e63237c1',
+//       '0x00000000000000000000000057c641e614fb9ca266c8a8e0ab4285d2fad74d63'
+//     ],
+//     index: 24,
+//     transactionIndex: 22
+// }
+export const getAllTransactions = async (address: string) => {
+    
+    const currentLatestBlockNumber = await provider.getBlock("latest")    
+    const logs = await provider.getLogs({
+        fromBlock: 4763210, // contract is deployed in this block
+        toBlock: currentLatestBlockNumber.number,
+        topics: [ethers.id('Transfer(address,address,uint256)')],
+        address: process.env.SEPOLIA_CONTRACT_ADDRESS
+    });
+    
+}
+
+// getAllTransactions("0x57C641e614fB9Ca266C8a8e0Ab4285d2fAd74D63")
